@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.exe": "code-text-binary",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp"
     }
 }
