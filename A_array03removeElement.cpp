@@ -20,7 +20,7 @@ int main()
 
     for (int i = 0; i < num; i++){
         if(nums[i] == target){
-            for (int j = i+1; j < num; j++){
+            for (int j = i+1; j < num; j++){ // 这里是i+1呀，+1不要写掉了
                 nums[j - 1] = nums[j];
             }
             i--;
